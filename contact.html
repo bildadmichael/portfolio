@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Bildad Michael</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Bildad.M</div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="hobbies.html">Hobbies</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section>
+            <h2>Contact Me</h2>
+            <p>I'd love to hear from you. Reach out via email or follow me on social media.</p>
+
+            <div class="contact-links">
+                <a href="mailto:bildadmichael.7@gmail.com" class="contact-item">
+                    <span style="font-size: 1.5rem">✉️</span>
+                    <div>
+                        <h3>Email</h3>
+                        <p>bildadmichael.7@gmail.com</p>
+                    </div>
+                </a>
+
+                <a href="https://github.com/bildadmichael" target="_blank" class="contact-item">
+                    <span style="font-size: 1.5rem">🐙</span>
+                    <div>
+                        <h3>GitHub</h3>
+                        <p>github.com/bildadmichael</p>
+                    </div>
+                </a>
+
+                <a href="https://tiktok.com/@bildad849" target="_blank" class="contact-item">
+                    <span style="font-size: 1.5rem">🎵</span>
+                    <div>
+                        <h3>TikTok</h3>
+                        <p>@bildad849</p>
+                    </div>
+                </a>
+            </div>
+
+            <div style="margin-top: 3rem;">
+                <h3>Send a Message</h3>
+                <!-- Simple visual form styling, no backend functionality required by prompt but good for UI -->
+                <form style="display: grid; gap: 1rem; max-width: 600px; margin-top: 1rem;"
+                    onsubmit="event.preventDefault(); alert('This is a demo form!');">
+                    <input type="text" placeholder="Your Name"
+                        style="padding: 1rem; background: var(--card-bg); border: 1px solid var(--border); color: white; border-radius: 4px;">
+                    <input type="email" placeholder="Your Email"
+                        style="padding: 1rem; background: var(--card-bg); border: 1px solid var(--border); color: white; border-radius: 4px;">
+                    <textarea placeholder="Message" rows="5"
+                        style="padding: 1rem; background: var(--card-bg); border: 1px solid var(--border); color: white; border-radius: 4px;"></textarea>
+                    <button type="submit" class="btn" style="width: fit-content;">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Bildad Michael. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
